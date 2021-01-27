@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-27T13:50:52 EST" name="Back-End Test" finished-at="2021-01-27T13:50:56 EST" duration-ms="4567">
+    <groups>
+    </groups>
+    <test started-at="2021-01-27T13:50:52 EST" name="Test Basics 1" finished-at="2021-01-27T13:50:56 EST" duration-ms="4567">
+      <class name="test.LoginTest">
+        <test-method signature="test_no_password_login_info()[pri:0, instance:test.LoginTest@26275bef]" started-at="2021-01-27T13:50:52 EST" name="test_no_password_login_info" finished-at="2021-01-27T13:50:53 EST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_no_password_login_info -->
+        <test-method signature="test_no_userName_login_info()[pri:0, instance:test.LoginTest@26275bef]" started-at="2021-01-27T13:50:53 EST" name="test_no_userName_login_info" finished-at="2021-01-27T13:50:54 EST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_no_userName_login_info -->
+        <test-method signature="test_proper_login_info()[pri:0, instance:test.LoginTest@26275bef]" started-at="2021-01-27T13:50:54 EST" name="test_proper_login_info" finished-at="2021-01-27T13:50:55 EST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_proper_login_info -->
+        <test-method signature="test_wrong_password_login_info()[pri:0, instance:test.LoginTest@26275bef]" started-at="2021-01-27T13:50:55 EST" name="test_wrong_password_login_info" finished-at="2021-01-27T13:50:55 EST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_wrong_password_login_info -->
+        <test-method signature="test_wrong_username_login_info()[pri:0, instance:test.LoginTest@26275bef]" started-at="2021-01-27T13:50:55 EST" name="test_wrong_username_login_info" finished-at="2021-01-27T13:50:56 EST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_wrong_username_login_info -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Back-End Test -->
+</testng-results>
